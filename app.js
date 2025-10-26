@@ -1,0 +1,13 @@
+let http = require('http');
+
+const server = http.createServer((req, res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello tato - from Node');
+});
+
+server.listen(3000, () => {
+    console.log('Server running at http://localhost:3000');
+});
+
+console.log("node is working!");
