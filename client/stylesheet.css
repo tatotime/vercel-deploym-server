@@ -1,0 +1,32 @@
+
+.navbar {
+    position:"fixed";
+    margin: 25px 25px 25px 25px;
+}
+.navbar_menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+.navbar_item {
+    margin: 0;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #e7e7e7;
+    background-color: #00007f;
+}
+
+.form_box {
+  width: 90%;
+  max-width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  padding: 50px 60px 70px;
+  text-align: center;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta title="Dungeon Knights | Sign Up">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar_container">
+
+                <ul class="navbar_menu">
+
+                    <li class="navbar_item">
+                        <a href="/home">Home</a>
+                    </li>
+                    
+                    <li class="navbar_item">
+                        <a href="/character-list" class>Character List</a>
+                    </li>
+
+                    <li class="navbar_item">
+                        <a href="/character-builder">Character Builder</a>
+                    </li>
+
+                    <li class="navbar_item">
+                        <a href="/login">Login</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="/signup">Sign Up</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <div class="signup_container">
+            <div class="form_box">
+                <form method="POST" class="login-form signup-form" id="login_form">
+                    <div class="input_group">
+                        <h1>Sign Up</h1>
+                        <div class="input_field">
+                            <label class="signupInputLabel">Username</label>
+                            <input name="user" id="luser" required="required" type="text" placeholder="Username">
+                        </div>
+                        <div class="input_field">
+                            <label class="signupInputLabel">FirstName</label>
+                            <input name="firstname" id="lfirstname" required="required" type="text" placeholder="Name">
+                        </div>
+                        <button type="submit" style="margin: 12px 0px 12px;background-color: rgb(16, 108, 80);border-radius: 8px;">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </body>
+</html>
