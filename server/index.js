@@ -5,7 +5,7 @@ let pg = require('pg');
 let postgres = require('postgres');
 let sql = postgres(process.env.connectionString);
 const { Pool } = pg;
-const port = 8080;
+const port = 3000;
 
 // create instance of express running - for routing purposes
 const app = express();
@@ -55,7 +55,7 @@ const query = {
 
 // listen to requests on specified ports
 server.listen(port, () => {
-    console.log('Server running at http://localhost:8080}');
+    console.log('Server running at http://localhost:3000}');
 });
 
 console.log("node is working!");
