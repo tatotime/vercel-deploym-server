@@ -27,4 +27,4 @@ for hackathon
 
 ## Specifics
 - Get ONE (1) BASIC HTML webpage that can communicate with the server (nodejs/expressjs)
-- make and successfully have server communicate and query with database (postgres on Supabase)
+- make and successfully have server communicate and query with database (postgres on Supabase)# vercel-deploym-server
