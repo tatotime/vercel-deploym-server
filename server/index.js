@@ -55,11 +55,7 @@ const query = {
 
 // listen to requests on specified ports
 server.listen(port, () => {
-<<<<<<< HEAD
     console.log('Server running at http://localhost:3000}');
-=======
-    console.log('Server running at http://localhost:8080}');
->>>>>>> 730a3706177f7f37b22f33ae134f870500915ade
 });
 
 console.log("node is working!");
