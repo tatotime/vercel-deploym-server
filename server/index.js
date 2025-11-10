@@ -55,7 +55,7 @@ const query = {
 
 // listen to requests on specified ports
 server.listen(port, () => {
-    console.log('Server running at http://localhost:${port}');
+    console.log('Server running at http://localhost:8080}');
 });
 
 console.log("node is working!");
