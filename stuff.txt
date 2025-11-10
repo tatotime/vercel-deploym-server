@@ -1,4 +1,0 @@
-Character List
-Character Builder
-Login
-Sign Up
