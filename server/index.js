@@ -5,7 +5,7 @@ let pg = require('pg');
 let postgres = require('postgres');
 let sql = postgres(process.env.connectionString);
 const { Pool } = pg;
-const port = 8080;
+const port = 3000;
 
 // create instance of express running - for routing purposes
 const app = express();
